@@ -1,0 +1,120 @@
+h1 {
+    font-weight: normal;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    background-color: #EBB625;
+    border: solid 0.2px grey;
+    color: white;
+    padding: 10px;
+    font: roboto;
+}
+
+td {
+    font-size: 6pt;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+
+th {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+table {
+    border-spacing: 50px;
+}
+
+/* FLEXBOX CONTAINER */
+
+.main-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    
+}
+
+/* FLEXBOX ITEM #1 */
+.nav-left {
+    color: white;
+    font: roboto;
+}
+
+/* FLEXBOX ITEM #2 */
+/* .nav-right {
+    
+} */
+
+/* FLEX BOX ITEM #3 */
+.nav-links {
+    display: flex;
+    list-style-type:none;
+    gap: 50px;
+    padding-left:0;
+    font-size: 8pt;
+}
+
+
+/* NAVIGATION LINK ANCHOR TAGS*/
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+
+/* HERO IMAGE CONTAINER */
+.hero-image-container {
+    position: relative;
+    text-align: center;
+}
+
+.pic-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font: roboto;
+    font-size: 55pt;
+    max-width: 100%;
+}
+
+.month-banner {
+    text-align: left;
+    border: solid 1px;
+    background-color: #f7f7f7;
+    font-size: 8pt;
+    padding-left: 50px;
+    margin: 0 12%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.raisin-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid grey;
+    margin: 0 12%;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    background-color: black;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: left;
+}
